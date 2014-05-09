@@ -1,0 +1,9 @@
+<div class="container">
+
+  <h1>Yahtzee</h1>
+  <% if session[:player_id] %>
+    <button><a href="">New Game</a></button>
+  <% else %>
+    <button><a href="/sign_in">Sign In with Twitter</a></button>
+  <% end %>
+</div>
